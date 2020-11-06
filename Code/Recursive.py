@@ -1,3 +1,7 @@
+
+print("N :")
+N=int(input())
+
 def Fibonacci(pos):
     if pos <= 1:
         return 0
@@ -8,6 +12,6 @@ def Fibonacci(pos):
     fibn = fib1 + fib2
     return fibn
 
-for i in range(1,11):
+for i in range(1,N):
     wanted = Fibonacci(i)
     print(wanted)
